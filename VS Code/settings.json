@@ -3,7 +3,10 @@
         "editor.wordWrap": "on"
     },
     "[python]": {
-        "editor.formatOnType": true
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ]
     },
     "breadcrumbs.enabled": false,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -25,9 +28,6 @@
     "editor.lightbulb.enabled": "off",
     "editor.minimap.enabled": false,
     "editor.roundedSelection": false,
-    "editor.rulers": [
-        80
-    ],
     "editor.scrollbar.vertical": "visible",
     "editor.scrollPredominantAxis": false,
     "editor.unfoldOnClickAfterEndOfLine": true,
