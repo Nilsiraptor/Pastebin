@@ -22,7 +22,7 @@
     "editor.emptySelectionClipboard": false,
     "editor.experimentalGpuAcceleration": "on",
     "editor.experimentalWhitespaceRendering": "font",
-    "editor.fontFamily": "'Cascadia Code', 'Courier New', monospace",
+    "editor.fontFamily": "'Cascadia Code', 'Fira Code', 'Roboto Mono', monospace",
     "editor.fontLigatures": true,
     "editor.inlineSuggest.edits.codeShifting": false,
     "editor.lightbulb.enabled": "off",
@@ -44,7 +44,7 @@
     ],
     "git.confirmSync": false,
     "jupyter.askForKernelRestart": false,
-    "jupyter.pythonExportMethod": "nbconvert",
+    "jupyter.pythonExportMethod": "commentMagics",
     "latex-workshop.latex.recipe.default": "lualatex",
     "latex-workshop.latex.recipes": [
         {
