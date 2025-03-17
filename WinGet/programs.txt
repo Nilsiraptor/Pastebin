@@ -1,0 +1,6 @@
+Microsoft.PowerToys
+jahhfodiahiosdhf
+Inkscape.Inkscape
+Governikus.AusweisApp
+VideoLAN.VLC
+Audacity.Audacity
