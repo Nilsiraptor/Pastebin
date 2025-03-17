@@ -1,2 +1,2 @@
-# Settings
-This repo contains all personal configuration files for different programs
+# Pastebin
+This repo contains personal scripts and configuration files for different programs
