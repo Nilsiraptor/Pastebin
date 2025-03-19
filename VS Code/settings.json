@@ -1,6 +1,7 @@
 {
     "[latex]": {
-        "editor.wordWrap": "on"
+        "editor.wordWrap": "on",
+        "editor.wrappingIndent": "none"
     },
     "[python]": {
         "editor.formatOnType": true,
@@ -246,5 +247,7 @@
     "update.showReleaseNotes": false,
     "window.confirmSaveUntitledWorkspace": false,
     "workbench.colorTheme": "Default Dark+",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "editor.scrollbar.horizontal": "visible",
+    "diffEditor.wordWrap": "off"
 }
