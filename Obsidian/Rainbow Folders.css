@@ -45,3 +45,12 @@ div:nth-child(8n+7 of .nav-folder) {
 div:nth-child(8n+8 of .nav-folder) {
     background-color: var(--color-8);
 }
+
+.tree-item-children {
+    --nav-indentation-guide-width: 0px;
+}
+
+.nav-file-title, .is-active {
+    margin-inline-start: 0px;
+    margin-inline-end: 8px;
+}
