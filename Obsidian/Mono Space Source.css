@@ -1,4 +1,4 @@
 .markdown-source-view {
-    --font-text: Cascadia Code;
+    --font-text: var(--font-monospace);
     --font-text-size: 14px;
 }
