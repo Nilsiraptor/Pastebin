@@ -1,0 +1,4 @@
+/* Hide indentation guides in reading view */
+.markdown-reading-view {
+    --indentation-guide-width: 0px;
+}
