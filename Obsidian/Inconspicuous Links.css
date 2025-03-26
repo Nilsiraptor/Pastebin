@@ -1,0 +1,15 @@
+body {
+    --link-color: var(--text-normal);
+    --link-color-hover: var(--text-accent);
+
+    --link-external-color: var(--text-normal);
+    --link-external-color-hover: var(--text-accent);
+
+    --link-unresolved-color: var(--text-normal);
+    --link-unresolved-decoration-color: var(--text-accent);
+
+    --link-decoration: none;
+    --link-external-decoration: none;
+
+    --link-weight: 500;
+}
