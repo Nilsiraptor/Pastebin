@@ -1,0 +1,18 @@
+{
+  "propertiesInDocument": "source",
+  "showLineNumber": true,
+  "spellcheck": false,
+  "useTab": false,
+  "tabSize": 3,
+  "autoConvertHtml": false,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "livePreview": false,
+  "defaultViewMode": "preview",
+  "promptDelete": false,
+  "strictLineBreaks": true,
+  "attachmentFolderPath": "./",
+  "showIndentGuide": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "New Notes"
+}

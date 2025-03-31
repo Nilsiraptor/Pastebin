@@ -1,0 +1,22 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "monospaceFontFamily": "Cascadia Code",
+  "textFontFamily": "Lexend",
+  "translucency": false,
+  "cssTheme": "Flexoki",
+  "interfaceFontFamily": "Lexend",
+  "baseFontSize": 16,
+  "showViewHeader": false,
+  "showRibbon": false,
+  "enabledCssSnippets": [
+    "style",
+    "Mono Space Source",
+    "No Indent Guides",
+    "No Borders",
+    "Hide Sidebar Toggles",
+    "Custom Link Font",
+    "Inconspicuous Links",
+    "Rainbow Folders"
+  ]
+}
