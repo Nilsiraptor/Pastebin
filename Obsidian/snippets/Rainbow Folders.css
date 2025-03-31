@@ -8,14 +8,14 @@
 }
 
 div {
-    --color-1: #ffadad;
-    --color-2: #ffd6a5;
-    --color-3: #fdffb6;
-    --color-4: #caffbf;
-    --color-5: #9bf6ff;
-    --color-6: #a0c4ff;
-    --color-7: #bdb2ff;
-    --color-8: #ffc6ff;
+    --color-1: #F89A8A;
+    --color-2: #F9AE77;
+    --color-3: #ECCB60;
+    --color-4: #BEC97E;
+    --color-5: #87D3C3;
+    --color-6: #92BFDB;
+    --color-7: #C4B9E0;
+    --color-8: #F4A4C2;
 }
 
 div:nth-child(8n+1 of .nav-folder) {
