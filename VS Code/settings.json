@@ -17,11 +17,10 @@
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.codeActionsOnSave": {},
     "editor.codeActionWidget.includeNearbyQuickFixes": false,
-    "editor.codeLens": false,
+    "editor.codeLens": true,
     "editor.detectIndentation": false,
     "editor.dragAndDrop": false,
     "editor.emptySelectionClipboard": false,
-    "editor.experimentalGpuAcceleration": "on",
     "editor.experimentalWhitespaceRendering": "font",
     "editor.fontFamily": "'Cascadia Code', 'Fira Code', 'Roboto Mono', monospace",
     "editor.fontLigatures": true,
@@ -248,6 +247,9 @@
     "window.confirmSaveUntitledWorkspace": false,
     "workbench.colorTheme": "Default Dark+",
     "workbench.startupEditor": "none",
-    "editor.scrollbar.horizontal": "visible",
-    "diffEditor.wordWrap": "off"
+    "diffEditor.wordWrap": "off",
+    "terminal.integrated.gpuAcceleration": "off",
+    "jupyter.interactiveWindow.cellMarker.decorateCells": "allCells",
+    "jupyter.interactiveWindow.creationMode": "single",
+    "jupyter.interactiveWindow.codeLens.enableGotoCell": false
 }
