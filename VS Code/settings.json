@@ -24,11 +24,9 @@
     "editor.experimentalWhitespaceRendering": "font",
     "editor.fontFamily": "'Cascadia Code', 'Fira Code', 'Roboto Mono', monospace",
     "editor.fontLigatures": true,
-    "editor.inlineSuggest.edits.codeShifting": false,
     "editor.lightbulb.enabled": "off",
     "editor.minimap.enabled": false,
     "editor.roundedSelection": false,
-    "editor.scrollbar.vertical": "visible",
     "editor.scrollPredominantAxis": false,
     "editor.unfoldOnClickAfterEndOfLine": true,
     "explorer.confirmDelete": false,
@@ -45,7 +43,7 @@
     "git.confirmSync": false,
     "jupyter.askForKernelRestart": false,
     "jupyter.pythonExportMethod": "commentMagics",
-    "latex-workshop.latex.recipe.default": "lualatex",
+    "latex-workshop.latex.recipe.default": "lualatex -> biber -> lualatex * 2",
     "latex-workshop.latex.recipes": [
         {
             "name": "latexmk",
@@ -72,12 +70,12 @@
             ]
         },
         {
-            "name": "pdflatex -> bibtex -> pdflatex * 2",
+            "name": "lualatex -> biber -> lualatex * 2",
             "tools": [
-                "pdflatex",
-                "bibtex",
-                "pdflatex",
-                "pdflatex"
+                "lualatex",
+                "biber",
+                "lualatex",
+                "lualatex"
             ]
         },
         {
@@ -109,6 +107,23 @@
         }
     ],
     "latex-workshop.latex.tools": [
+        {
+            "name": "lualatex",
+            "command": "lualatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "biber",
+            "command": "biber",
+            "args": [
+                "%DOCFILE%"
+            ]
+        },
         {
             "args": [
                 "-synctex=1",
@@ -251,5 +266,8 @@
     "terminal.integrated.gpuAcceleration": "off",
     "jupyter.interactiveWindow.cellMarker.decorateCells": "allCells",
     "jupyter.interactiveWindow.creationMode": "single",
-    "jupyter.interactiveWindow.codeLens.enableGotoCell": false
+    "jupyter.interactiveWindow.codeLens.enableGotoCell": false,
+    "latex-workshop.latex.autoBuild.run": "never",
+    "editor.inlineSuggest.edits.allowCodeShifting": "never",
+    "terminal.integrated.enableMultiLinePasteWarning": "never"
 }
