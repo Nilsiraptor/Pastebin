@@ -25,4 +25,5 @@ Your task is to provide a short, objective review of a specific book.
 ### The Book to review:
 
 **Title:** [Book Title]
+
 **Author:**  [Book Author]
